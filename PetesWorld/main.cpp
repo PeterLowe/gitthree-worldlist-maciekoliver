@@ -57,25 +57,25 @@ int main()
 	}
 	if (letter == 'b' || letter == 'B')// written by Maciek
 	{
-		if (region == 1)
+		if (region == 5)
 		{
-			std::cout << "Belize, Brazil, Bolivia, Bahamas, Barbados, Bermuda" << std::endl;
-		}
-		if (region == 2)
-		{
-			std::cout << "Belarus, Belgium, Bosnia and Herzegovina, Bulgaria" << std::endl;
-		}
-		if (region == 3)
-		{
-			std::cout << "Bahrain Arabian Peninsula, Belize, Benin, Botswana, Burkina Faso, Burundi" << std::endl;
+			std::cout << "There are no Bs in rest of the world" << std::endl;
 		}
 		if (region == 4)
 		{
 			std::cout << "Bangladesh, Bhutan, Brunei Darussalam" << std::endl;
 		}
-		if (region == 5)
+		if (region == 3)
 		{
-			std::cout << "There are no Bs in rest of the world" << std::endl;
+			std::cout << "Bahrain Arabian Peninsula, Belize, Benin, Botswana, Burkina Faso, Burundi" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Belarus, Belgium, Bosnia and Herzegovina, Bulgaria" << std::endl;
+		}
+		if (region == 1)
+		{
+			std::cout << "Belize, Brazil, Bolivia, Bahamas, Barbados, Bermuda" << std::endl;
 		}
 	}
 	if (letter == 'c' || letter == 'C') // written by Maciek
