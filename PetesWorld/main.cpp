@@ -55,6 +55,29 @@ int main()
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
 	}	
+	if (letter == 't' || letter == 'T') // Written by Oliver Junca
+	{
+		if (region == 1)
+		{
+			std::cout << "Trinidad and Tobago, Turks and Caicos Islands." << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "There are no Ts in Europe." << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Tunisia, Togo, Tanzania; officially the United Republic of Tanzania." << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Taiwan (Republic of China), Tajikistan, Thailand, Tibet, Timor-Leste (East Timor), Turkey, Turkmenistan." << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Tokelau, Tonga, Tuvalu." << std::endl;
+		}
+	}
 	if (letter == 'u' || letter == 'U') // Written by Oliver Junca
 	{
 		if (region == 1)
