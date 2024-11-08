@@ -153,25 +153,25 @@ int main()
 	}
 	if (letter == 'y' || letter == 'Y') // Written by Oliver Junca
 	{
-		if (region == 1)
+		if (region == 5)
 		{
-			std::cout << "There are no Ys in the Americas." << std::endl;
-		}
-		if (region == 2)
-		{
-			std::cout << "There are no Ys in Europe." << std::endl;
-		}
-		if (region == 3)
-		{
-			std::cout << "There are no Ys in Africa." << std::endl;
+			std::cout << "There are no Ys in the rest of the world." << std::endl;
 		}
 		if (region == 4)
 		{
 			std::cout << "Yemen." << std::endl;
 		}
-		if (region == 5)
+		if (region == 3)
 		{
-			std::cout << "There are no Ys in the rest of the world." << std::endl;
+			std::cout << "There are no Ys in Africa." << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "There are no Ys in Europe." << std::endl;
+		}
+		if (region == 1)
+		{
+			std::cout << "There are no Ys in the Americas." << std::endl;
 		}
 	}
 	if (letter == 'z' || letter == 'Z') // written by Pete
