@@ -101,7 +101,7 @@ int main()
 			std::cout << "Cook Islands" << std::endl;
 		}
 	}
-	if (letter == 'd' || letter == 'D')
+	if (letter == 'd' || letter == 'D') // written by Maciek
 	{
 		if (region == 1)
 		{
@@ -124,7 +124,7 @@ int main()
 			std::cout << "There are no Ds in the rest of the world" << std::endl;
 		}
 	}
-	if (letter == 'e' || letter == 'E')
+	if (letter == 'e' || letter == 'E') // written by Maciek
 	{
 		if (region == 1)
 		{
@@ -147,7 +147,7 @@ int main()
 			std::cout << "There are no Es in the rest of the world" << std::endl;
 		}
 	}
-	if (letter == 'f' || letter == 'F')
+	if (letter == 'f' || letter == 'F') // written by Maciek
 	{
 		if (region == 1)
 		{
@@ -170,7 +170,7 @@ int main()
 			std::cout << "Fiji, French Polynesia, French Southern Territories" << std::endl;
 		}
 	}
-	if (letter == 'g' || letter == 'G')
+	if (letter == 'g' || letter == 'G') // written by Maciek
 	{
 		if (region == 1)
 		{
